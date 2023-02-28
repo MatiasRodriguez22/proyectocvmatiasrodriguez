@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Proyecto CV Matias Rodriguez</title>
+</head>
+<body>
+<!-- Encabezado del CV -->
+<section class="inicio" id="inicio">
+    <div class="contenido-seccion">
+        <header>
+            <div class="nav-bar" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </div>
+            <nav id="nav" class="nav">
+                <a href="#inicio">Inicio</a>
+                <a href="#presentacion">Carta de Presentación</a>                
+                <a href="#resumen">Estudios y Experiencia</a>
+                <a href="#skills">Conocimientos Complementarios</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </header>
+
+        <div class="info">
+            <h1>Matias Hector Rodriguez</h1>            
+            <h2>38 años, Inspector de redes y comunicación, industria petrolera</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+            </div>
+        </div>
+        <div class="foto_perfil">
+            <img src="imagenes/perfil.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+    <!-- Carta de presentación -->
+    <section class="presentacion" id="presentacion">
+        <div class="contenido-seccion">
+                <h3>Carta de presentación</h3>
+                <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años</p>
+
+            <div class="fila">
+                <div class="col">
+                    <i class="fa-solid fa-person-digging"></i>
+                    <span class="titulo-detalle">Perfil laboral</span>
+                    <p>Sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
+                </div>                
+                <div class="col">
+                    <i class="fa-solid fa-flag-checkered"></i>
+                    <span class="titulo-detalle">Metas e intereses personales</span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, provident esse. Nesciunt quod eveniet dolorem necessitatibus iure, suscipit similique provident fugiat excepturi commodi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- Estudios y experiencia -->
+ <section class="resumen" id="resumen">
+    <div class="contenido-seccion">        
+        <h3>Estudios cursados y experiencia laboral</h3>
+        <div class="info">
+            <div class="col">
+                <span class="titulo">Estudios e institución</span>
+                <table>
+                    <tr>
+                        <td class="datos">
+                            <h3>1998 - 2002</h3>
+                        </td>
+                        <td rowspan="2" class="descripcion">
+                            Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>Ingenieria eléctronica</h4>
+                            <p>Universidad nacional del sur</p>
+                            <span class="promedio">7.8 Promedio</span>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td class="datos">
+                            <h3>2003 - 2010</h3>
+                        </td>
+                        <td rowspan="2" class="descripcion">
+                            El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>Lic. En redes</h4>
+                            <p>Universidad Técnologica</p>
+                            <span class="promedio">8 de Promedio</span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col">
+                <span class="titulo">Experiencia Laboral</span>
+                <table>
+                    <tr>
+                        <td class="datos">
+                            <h3>2002 al 2003 / 1 Año</h3>
+                        </td>
+                        <td rowspan="2" class="descripcion">
+                            "Contenido aquí, contenido aquí". Estos textos hacen parecerlo un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web usan el Lorem Ipsum como su texto por defecto
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>PBB Polisur</h4>
+                            <p>Programador de trabajos</p>
+                           
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td class="datos">
+                            <h3>2003 al 2013 / 10 Años</h3>
+                        </td>
+                        <td rowspan="2" class="descripcion">
+                            Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque se le agregó humor
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>Proyectos de ingenieria</h4>
+                            <p>Inspector</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!-- Conocimientos complementarios--> 
+<div class="contenedor-skills" id="skills">
+    <h3>Conocimientos Complementarios</h3>
+    <div class="skill">
+        <div class="info">
+            <p> <span class="lista"> </span>Html & Css</p>
+            <span class="porcentaje">95%</span>
+        </div>
+
+        <div class="barra">
+            <div class="" id="html"></div>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="info">
+            <p> <span class="lista"> </span>Javascript</p>
+            <span class="porcentaje">90%</span>
+        </div>
+
+        <div class="barra">
+            <div class="" id="js"></div>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="info">
+            <p> <span class="lista"> </span>Bases de Datos</p>
+            <span class="porcentaje">90%</span>
+        </div>
+
+        <div class="barra">
+            <div class="" id="bd"></div>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="info">
+            <p> <span class="lista"> </span>Photoshop</p>
+            <span class="porcentaje">85%</span>
+        </div>
+
+        <div class="barra">
+            <div class="" id="ps"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Pie de página -->
+<section class="contacto" id="contacto">
+    <div class="contenido-seccion">
+        <h2 class="titulo-seccion">Contacto y Ubicación</h2>
+            <div class="fila">
+            <div class="col">
+                <h2>
+                    <i class="fa-solid fa-phone-arrow-up-right"></i> Teléfono
+                </h2>
+                <span class="info-contacto">291-156748392</span>
+            </div>
+            <div class="col">
+                <h2>
+                    <i class="fa-solid fa-at"></i> E-mail
+                </h2>
+                <span class="info-contacto">matias.rodriguez@hotmail.com</span>
+            </div>
+            <div class="col">
+                <h2>
+                    <i class="fa-regular fa-map-location-dot"></i> Ciudad
+                </h2>
+                <span class="info-contacto">Bahia Blanca / Prov. de Buenos Aires</span>
+            </div>
+        </div>
+    </div>
+    </section>
+<script src="app.js"></script>
+</body>
+</html>
